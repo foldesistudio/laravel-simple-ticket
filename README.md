@@ -24,7 +24,6 @@ Next make sure to create a new database _(collation: utf8mb4_unicode_ci)_ and ad
 `$ php artisan key:generate`
 
 
-
 ### Set up database tables and seed default records
 
 `$ php artisan voyager:install --with-dummy`
