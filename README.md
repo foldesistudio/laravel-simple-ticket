@@ -1,7 +1,7 @@
 # Laravel Simple Ticket
 Simple ticket system with Laravel 9 and Voyager Admin
 
-## Quick start guide
+## Quick starting guide
 
 ### Clone this repository
 
