@@ -11,7 +11,7 @@ Simple ticket system with Laravel 9 and Voyager Admin
 
 `$ composer install`
 
-`$ npm install && npm run dev`
+`$ npm install && npm run build && npm run dev`
 
 Rename '.env.example' file to '.env' at the project root folder.
 
@@ -21,12 +21,13 @@ Next make sure to create a new database _(collation: utf8mb4_unicode_ci)_ and ad
 
 ### Generate Application 
 
-`$ php artisan key:generate Key`
- 
+`$ php artisan key:generate`
+
+
 
 ### Set up database tables and seed default records
 
-`$ php artisan migrate:fresh --seed  `
+`$ php artisan voyager:install --with-dummy`
 
 ### This project came with predefined admin
 
